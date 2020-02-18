@@ -21,7 +21,6 @@ class Currency:
         - symbol - optional symbol used to designate currency
         - digits -- number of significant digits used
         """
-        # pass
 
     def __str__(self):
         if self.symbol:
@@ -32,7 +31,6 @@ class Currency:
         """
         Should return the currency code, or code with symbol in parentheses.
         """
-        # pass
 
     def __eq__(self, other):
         """
